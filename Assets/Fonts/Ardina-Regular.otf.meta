@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 89e512afc286ed246a28a038d6eafca4
+timeCreated: 1490533631
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Ardina
+  fontNames:
+  - Ardina
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
