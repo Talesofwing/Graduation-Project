@@ -55,6 +55,12 @@ public class SoundManager : MonoBehaviour {
 		SFX.PlayOneShot (clip, SFX.volume);
 	}
 
+	public void PlaySFX (AudioClip clip, float volume) {
+		if (SFX.volume == 0) return;
+
+		SFX.PlayOneShot (clip, volume);
+	}
+
 	public void PlayPressedSound () {
 		PlaySFX (pressedSound);
 	}
