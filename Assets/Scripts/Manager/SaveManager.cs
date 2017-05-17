@@ -28,8 +28,6 @@ public class SaveManager : MonoBehaviour {
 	}
 
 	public void Setup () {
-//		PlayerPrefs.DeleteAll ();
-
 		bgmVolume = PlayerPrefs.GetFloat (SAVEBGMVOLUME, 0.7f);
 		sfxVolume = PlayerPrefs.GetFloat (SAVESFXVOLUME, 0.3f);
 		bestTime = PlayerPrefs.GetFloat (SAVESHOOTGAMEBESTTIME, 0);
@@ -41,6 +39,10 @@ public class SaveManager : MonoBehaviour {
 
 	public float GetSFXVolume () {
 		return sfxVolume;
+	}
+
+	public float GetBestTime () {
+		return bestTime;
 	}
 
 	public void SetBGMVolume (float volume) {
@@ -56,10 +58,6 @@ public class SaveManager : MonoBehaviour {
 	public void SetBestTime (float time) {
 		bestTime = time;
 		Save ();
-	}
-
-	public float GetBestTime () {
-		return bestTime;
 	}
 
 	public void Save () {

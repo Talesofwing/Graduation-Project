@@ -5,6 +5,8 @@
 
 作業系統 : Windows 10
 
+運行硬件 : HTC Vive
+
 第三方 : [Vive-Teleporter](https://github.com/Flafla2/Vive-Teleporter)
 
 
